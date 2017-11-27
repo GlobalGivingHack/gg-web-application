@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gg-web-application.iml" filepath="$PROJECT_DIR$/.idea/modules/gg-web-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gg-web-application_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gg-web-application_main.iml" group="gg-web-application" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gg-web-application_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gg-web-application_test.iml" group="gg-web-application" />
+    </modules>
+  </component>
+</project>

@@ -24,9 +24,5 @@ module.config(function($routeProvider) {
   .when("/game/:sessionid/:gameid/:userid", {
     templateUrl : "game.html",
     controller : "GameController"
-  })
-  .when("/donorEvents", {
-    templateUrl : "donorEvents.html",
-    controller : "DonorEventsController"
   });
 });

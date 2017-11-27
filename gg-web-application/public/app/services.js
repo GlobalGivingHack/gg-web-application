@@ -20,10 +20,6 @@ module.factory('GameService', function($resource, api) {
     }
   });
 });
-module.factory('DonorEventService', function($resource, api) {
-  return $resource(api + 'donorEvents', {}, {
-  });
-});
 module.factory('RulesService', function($resource, api) {
   return $resource(api + 'rules/:id', { id: '@_id' }, {
   });
