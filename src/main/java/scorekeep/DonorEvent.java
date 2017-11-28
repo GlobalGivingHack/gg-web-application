@@ -14,6 +14,7 @@ public class DonorEvent {
     private String charity_id;
     private String donor_email;
     private String message;
+    private String media_url;
 
     public DonorEvent() {
     }
@@ -56,6 +57,15 @@ public class DonorEvent {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    @DynamoDBHashKey(attributeName="media_url")
+    public String getMedia_url() {
+        return media_url;
+    }
+
+    public void setMedia_url(String media_url) {
+        this.media_url = media_url;
     }
 
 }
