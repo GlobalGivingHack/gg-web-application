@@ -10,26 +10,26 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
 @DynamoDBTable( tableName = TableNames.DONOR_EVENT_TABLE )
 public class DonorEvent {
 
-    private String event_id;
+    private String message_id;
     private String charity_id;
-    private String donor_email;
+    private String user_id;
     private String message;
     private String media_url;
 
     public DonorEvent() {
     }
 
-    public DonorEvent(String event_id) {
-        this.event_id = event_id;
+    public DonorEvent(String message_id) {
+        this.message_id = message_id;
     }
 
-    @DynamoDBHashKey(attributeName="event_id")
-    public String getEvent_id() {
-        return event_id;
+    @DynamoDBHashKey(attributeName="message_id")
+    public String getMessage_id() {
+        return message_id;
     }
 
-    public void setEvent_id(String event_id) {
-        this.event_id = event_id;
+    public void setMessage_id(String message_id) {
+        this.message_id = message_id;
     }
 
     @DynamoDBHashKey(attributeName="charity_id")
@@ -41,13 +41,13 @@ public class DonorEvent {
         this.charity_id = charity_id;
     }
 
-    @DynamoDBHashKey(attributeName="donor_email")
-    public String getDonor_email() {
-        return donor_email;
+    @DynamoDBHashKey(attributeName="user_id")
+    public String getUser_id() {
+        return user_id;
     }
 
-    public void setDonor_email(String donor_email) {
-        this.donor_email = donor_email;
+    public void setUser_id(String user_id) {
+        this.user_id = user_id;
     }
 
     @DynamoDBHashKey(attributeName="message")
