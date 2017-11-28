@@ -1,4 +1,4 @@
-package scorekeep;
+package charity;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
@@ -7,7 +7,7 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
  * Created by rrv162 on 11/27/17.
  */
 
-@DynamoDBTable( tableName = TableNames.DONOR_EVENT_TABLE )
+@DynamoDBTable( tableName = "CharityMessages" )
 public class DonorEvent {
 
     private String message_id;

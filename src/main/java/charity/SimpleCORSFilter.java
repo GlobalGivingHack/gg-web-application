@@ -1,4 +1,4 @@
-package scorekeep;
+package charity;
 
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;

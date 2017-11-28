@@ -1,4 +1,4 @@
-package scorekeep;
+package charity;
 
 import java.util.List;
 

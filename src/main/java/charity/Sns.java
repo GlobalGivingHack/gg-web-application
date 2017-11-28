@@ -1,4 +1,4 @@
-package scorekeep;
+package charity;
 
 import com.amazonaws.services.sns.AmazonSNS;
 import com.amazonaws.services.sns.AmazonSNSClientBuilder;

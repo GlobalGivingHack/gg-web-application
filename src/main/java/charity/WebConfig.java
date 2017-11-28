@@ -1,4 +1,4 @@
-package scorekeep;
+package charity;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import javax.servlet.Filter;
