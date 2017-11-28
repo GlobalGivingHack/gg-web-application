@@ -15,6 +15,7 @@ public class DonorEvent {
     private String user_id;
     private String message;
     private String media_url;
+    private String timestamp;
 
     public DonorEvent() {
     }
@@ -68,4 +69,12 @@ public class DonorEvent {
         this.media_url = media_url;
     }
 
+    @DynamoDBHashKey(attributeName="timestamp")
+    public String getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(String timestamp) {
+        this.timestamp = timestamp;
+    }
 }
